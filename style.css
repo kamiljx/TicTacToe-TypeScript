@@ -8,11 +8,14 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-}
+  background-image: url('./assets/background.jpg');
+  background-size: cover
+;}
 
 h1 {
   text-align: center;
   padding-top: 20px;
+  color: whitesmoke;
 }
 
 .board {
@@ -54,12 +57,19 @@ h1 {
   transition: .3s;
   border: 1px solid #adadad;
   align-items: center;
+  background-image: url('./assets/fingerprint.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 
 .fa-times,
 .fa-circle {
   font-size: 60px;
+  color: red;
+  
 }
 
 
