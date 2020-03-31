@@ -1,0 +1,13 @@
+{
+  "name": "tsc-init",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "app.js",
+    "target": "es5",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamil Rzeszutek",
+  "license": "ISC"
+  
+}
