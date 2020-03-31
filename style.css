@@ -1,0 +1,44 @@
+html{
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background:#eeeeee;
+}
+h1{
+    text-align: center;
+}
+#score{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.player-score {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #EB4D4D;
+    margin-bottom: 130px;
+}
+tr, td{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 90px;
+    width: 90px;
+}   
+button{
+    height: 90px;
+    width: 90px; 
+}
